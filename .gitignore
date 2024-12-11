@@ -1,0 +1,21 @@
+# исключение конфиденциальных данных
+.env
+
+# Виртуальное окружение
+wwvenv/
+
+# Кеш Python
+*.pyc
+*.pyo
+__pychache__/
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Конфигурации IDE
+.idea/
+.vscode/
+
+# Кеш pip
+pip-wheel-metadata/
