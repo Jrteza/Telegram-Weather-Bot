@@ -30,29 +30,21 @@
 
 Клонируйте репозиторий:
 
-    '''bash
     git clone https://github.com/ваш-логин/weather-bot.git
     cd weather-bot
-    '''
 
 Установите зависимости:
 
-    '''bash
     pip install -r requirements.txt
-    '''
     
-Создайте файл .env для хранения конфиденциальных данных:
-
-BOT_TOKEN=ваш_токен_бота
-WEATHER_API_KEY=ваш_ключ_api
+Добавте в файл Config.py свой API ключ:
 
 ### Использование
 
 Запустите бота командой:
 
-    '''bash
     python bot.py
-    '''
+
 Пример использования в Telegram:
 
 Список доступных команд
